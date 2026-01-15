@@ -72,6 +72,6 @@ These projects were developed as part of the CSOC-IG coursework, demonstrating p
 
 ## Author
 
-**Divyansh Maybe**  
+**Divyansh Soni**  
 Roll Number: 24124018  
 GitHub: [@divyanshmaybe](https://github.com/divyanshmaybe)
