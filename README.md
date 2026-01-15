@@ -2,88 +2,91 @@
 
 This repository contains machine learning projects developed as part of the CSOC-IG coursework. It includes implementations of neural networks and reinforcement learning algorithms.
 
+## Repository Structure
+
+```
+24124018-CSOC-IG/
+├── 1_Vanilla_Neural_Networks/     # Neural Networks Project
+│   ├── README.md                  # Project-specific documentation
+│   ├── ex.ipynb                   # Main implementation notebook
+│   ├── report.pdf                 # Project report
+│   └── KaggleV2-May-2016.csv      # Dataset (download separately)
+├── 2_Reinforcement_Learning/      # Reinforcement Learning Projects
+│   ├── README.md                  # Project-specific documentation
+│   └── Week2/
+│       ├── FrozenLake/            # Frozen Lake implementations
+│       └── CliffWalking/          # Cliff Walking implementations
+├── README.md                      # This overview file
+├── .gitignore                     # Git ignore rules
+└── requirements.txt               # Python dependencies
+```
+
 ## Projects
 
 ### 1. Vanilla Neural Networks
-**Location:** `1_Vanilla_Neural_Networks/`
+**Location:** [`1_Vanilla_Neural_Networks/`](./1_Vanilla_Neural_Networks/)
 
-This project implements a custom neural network from scratch for predicting medical appointment no-shows using the Kaggle medical appointment dataset.
+Custom neural network implementation from scratch for medical appointment no-show prediction.
 
-**Key Features:**
-- Custom neural network implementation with forward and backward propagation
-- Class imbalance handling using weighted loss functions
-- Data preprocessing and feature engineering
-- Model evaluation with accuracy, F1-score, and confusion matrix
+**Key Topics:**
+- Neural network architecture design
+- Forward and backward propagation
+- Gradient descent optimization
+- Class imbalance handling
+- Model evaluation metrics
 
-**Files:**
-- `ex.ipynb`: Main implementation notebook
-- `KaggleV2-May-2016.csv`: Dataset (not included in repo - download from Kaggle)
-- `report.pdf`: Project report
+→ **[Detailed README](./1_Vanilla_Neural_Networks/README.md)**
 
 ### 2. Reinforcement Learning
-**Location:** `2_Reinforcement_Learning/`
+**Location:** [`2_Reinforcement_Learning/`](./2_Reinforcement_Learning/)
 
-This project explores various reinforcement learning algorithms on custom environments.
+Exploration of reinforcement learning algorithms on custom grid-world environments.
 
-**Week 2 Projects:**
+**Key Topics:**
+- Markov Decision Processes
+- Temporal Difference Learning
+- Policy and Value Iteration
+- Exploration strategies
+- Algorithm comparison
 
-#### Frozen Lake Environment
-**Location:** `2_Reinforcement_Learning/Week2/FrozenLake/`
+→ **[Detailed README](./2_Reinforcement_Learning/README.md)**
 
-- Custom Frozen Lake environments with different grid sizes
-- Implementation of Monte Carlo, SARSA, Q-Learning algorithms
-- Model-based methods: Policy Iteration and Value Iteration
-- Performance comparison across different algorithms
+## Quick Start
 
-**Files:**
-- `task.ipynb`: Comprehensive RL algorithms implementation
-- `rl2.ipynb`: Value and Policy Iteration on custom 8x8 Frozen Lake
-- `reinforcement_learning_report.pdf`: Detailed report
-- `task_1_and_2_derivation_and_proofs.pdf`: Mathematical derivations
-
-#### Cliff Walking Environment
-**Location:** `2_Reinforcement_Learning/Week2/CliffWalking/`
-
-- Custom Cliff Walking environment implementation
-- SARSA, Q-Learning, and Double Q-Learning algorithms
-- Performance analysis and comparison
-
-**Files:**
-- `bonus_task.ipynb`: RL algorithms on Cliff Walking
-
-## Installation
-
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/divyanshmaybe/24124018-CSOC-IG.git
 cd 24124018-CSOC-IG
 ```
 
-2. Install required packages:
+2. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+3. **Choose a project and follow its README for detailed instructions**
 
-Each project is contained in its own directory with Jupyter notebooks. Open the notebooks in Jupyter Lab or VS Code to run the code interactively.
+## Dataset Requirements
 
-For the neural networks project, you'll need to download the dataset from Kaggle and place it in the `1_Vanilla_Neural_Networks/` directory.
+- **Neural Networks**: Download the medical appointment dataset from Kaggle and place in `1_Vanilla_Neural_Networks/`
+- **Reinforcement Learning**: All environments are custom implementations - no external datasets needed
 
-## Dependencies
+## Technologies Used
 
-- numpy
-- pandas
-- scikit-learn
-- matplotlib
-- gymnasium
-- ydata-profiling
+- **Python** - Primary programming language
+- **NumPy** - Numerical computations
+- **Pandas** - Data manipulation
+- **Scikit-learn** - Machine learning utilities
+- **Gymnasium** - Reinforcement learning environments
+- **Matplotlib** - Data visualization
+- **Jupyter** - Interactive development
 
-## License
+## Academic Context
 
-This project is part of academic coursework.
+These projects were developed as part of the CSOC-IG coursework, demonstrating practical implementations of machine learning concepts learned in the program.
 
 ## Author
 
-Divyansh Maybe
-Roll Number: 24124018
+**Divyansh Maybe**  
+Roll Number: 24124018  
+GitHub: [@divyanshmaybe](https://github.com/divyanshmaybe)
