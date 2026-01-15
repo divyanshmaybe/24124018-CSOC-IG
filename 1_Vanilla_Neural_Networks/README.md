@@ -79,4 +79,4 @@ The model achieves reasonable performance on the imbalanced dataset through:
 
 ## Author
 
-Divyansh Maybe (Roll Number: 24124018)
+Divyansh Soni (Roll Number: 24124018)
