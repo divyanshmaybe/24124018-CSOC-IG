@@ -51,21 +51,6 @@ Exploration of reinforcement learning algorithms on custom grid-world environmen
 
 → **[Detailed README](./2_Reinforcement_Learning/README.md)**
 
-## Quick Start
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/divyanshmaybe/24124018-CSOC-IG.git
-cd 24124018-CSOC-IG
-```
-
-2. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Choose a project and follow its README for detailed instructions**
-
 ## Dataset Requirements
 
 - **Neural Networks**: Download the medical appointment dataset from Kaggle and place in `1_Vanilla_Neural_Networks/`
